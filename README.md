@@ -18,9 +18,9 @@ RAR stands for "Receive and Rejoice!"
 To use **boost_udp_receive_rar** just include the header file:
   
 ```
-  #include "boost_udp_receive_rar.h"
+#include "boost_udp_receive_rar.h"
 ```
-The boost libraries must also be included in you build.
+The boost libraries must also be included in your build.
   
 ## To receive a UDP datagram as a string
 
