@@ -11,8 +11,16 @@ The 4 functions are:
 - ```std::string receive_async()``` - Receives a datagram as a string (non-blocking)
 - ```std::vector<unsigned char> receive_binary_async()``` - Receives a datagram as binary (non-blocking)
 
+Note that this class deals with receiving UDP data only, for an easy way to send UDP data see: [boost_udp_send_faf](https://github.com/kgodden/boost_udp_send_faf)
   
 RAR stands for "Receive and Rejoice!"
+  
+To use **boost_udp_receive_rar** just include the header file:
+  
+```
+  #include "boost_udp_receive_rar.h"
+```
+The boost libraries must also be included in you build.
   
 ## To receive a UDP datagram as a string
 
