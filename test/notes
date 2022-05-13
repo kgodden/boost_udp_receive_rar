@@ -1,0 +1,3 @@
+To cross compile for ARM:
+
+arm-linux-gnueabi-g++ -pthread -D _GLIBCXX_USE_NANOSLEEP  -std=c++11   test_boost_udp_receive_rar.cpp -I ~/lib/boost_1_53_0/include -L ~/lib/boost_1_53_0/lib   -lboost_system
