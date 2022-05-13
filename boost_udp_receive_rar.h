@@ -153,6 +153,12 @@ public:
 			else {
 				// No data received yet, let's get
 				// boost::asio to check again.
+
+				// We have to do this so that we can
+				// receive more than 1 async message!
+				if (io_service.stopped())
+					io_service.reset();
+
 				io_service.poll_one();
 			}
 
