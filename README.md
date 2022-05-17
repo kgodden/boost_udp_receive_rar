@@ -89,3 +89,9 @@ do {
 } while (data.empty());
 
 ```
+# To build the tests for Ubuntu:
+  
+- Make sure boost is installed (e.g. To install: ```sudo apt-get install libboost-all-dev```)
+- In terminal, ```cd``` to the test directory and run ```make```
+- Run the tests bu executing: ```./test_boost_udp_receive_rar```
+  
