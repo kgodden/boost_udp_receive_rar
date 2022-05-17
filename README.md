@@ -95,3 +95,5 @@ do {
 - In terminal, ```cd``` to the test directory and run ```make```
 - Run the tests bu executing: ```./test_boost_udp_receive_rar```
   
+## Building the tests with Visual Studio
+  There is a VS2017 based solution to build the tests in the test directrory, you will have to change the include and library directories for boost in the project settings to match your system's configuration.  Buld the x86 Configuration.
