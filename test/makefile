@@ -3,4 +3,4 @@ all: test_boost_udp_receive_rar.cpp
 	
 .PHONY: clean
 clean:
-	-rm test_boost_udp_receive_rar *.gch 2> /dev/null
+	-rm -f test_boost_udp_receive_rar *.gch 2> /dev/null
