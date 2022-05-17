@@ -89,7 +89,7 @@ do {
 } while (data.empty());
 
 ```
-# To build the tests for Ubuntu:
+# To build the tests for Ubuntu based systems:
   
 - Make sure boost is installed (e.g. To install: ```sudo apt-get install libboost-all-dev```)
 - In terminal, ```cd``` to the test directory and run ```make```
