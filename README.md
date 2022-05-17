@@ -17,14 +17,14 @@ RAR stands for "Receive and Rejoice!"
   
 To use **boost_udp_receive_rar** just include the header file:
   
-```
+```cpp
 #include "boost_udp_receive_rar.h"
 ```
 The boost libraries must also be included in your build.
   
 ## To receive a UDP datagram as a string
 
-```  
+```cpp
 // Setup a receiver, specifying IP address and port
 // Note the IP address is that of the receiving network
 // interface.  As always with UDP and non-standard ports
@@ -40,7 +40,7 @@ cout << "Sync received string: " << datagram << endl;
 
 ## To receive a UDP datagram as binary
   
-```
+```cpp
 // Receive some binary data synchronously
 //
 std::vector<unsigned char> data = rar.receive_binary_sync();
@@ -49,7 +49,7 @@ cout << "Sync, received a datagram of size " << data.size() << endl;
 ```
   
 ## To Asynchronously receive a UDP datagram as a string
-```
+```cpp
 // Asyncrounsly receive a datagram as a string
 //
 // We loop calling receive_async() until it returns
